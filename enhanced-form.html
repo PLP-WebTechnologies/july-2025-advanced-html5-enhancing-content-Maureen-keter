@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLP Academy Bootcamp Registration</title>
+</head>
+
+<body>
+    <header>
+        <h1>PLP Academy Bootcamp Registration</h1>
+        <p>Join the Power Learn Project (PLP) Academy and gain industry-relevant skills
+            in software development, data science, and more.
+        </p>
+    </header>
+    <main>
+        <section>
+            <h2>Benefits of PLP Academy Bootcamp</h2>
+            <ul>
+                <li>Access to hands-on training in software development</li>
+                <li>Mentorship from experienced tech professionals</li>
+                <li>Career guidance and soft skills training</li>
+                <li>Opportunity to work on real-world projects</li>
+                <li>Networking opportunities with tech communities across Africa</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Available Bootcamp Tracks</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Track</th>
+                        <th>Level</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Software Development</td>
+                        <td>Beginner - Intermediate</td>
+                        <td>16 Weeks</td>
+                    </tr>
+                    <tr>
+                        <td>Data Science</td>
+                        <td>Advanced</td>
+                        <td>10 Weeks</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Watch Our Bootcamp Overview</h2>
+            <Video controls>
+                <source src="https://www.youtube.com/watch?v=uxQAzf8Ij60" type="video/mp4">
+            </Video>
+        </section>
+        <section>
+            <h2>Enrollment Form</h2>
+            <form action="#" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter full name..." required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email..." required>
+                    <label for="phone">phone Number</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter phone number..."
+                        pattern="^\+?\d{10,15}$" required>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob" required>
+
+                    <label for="gender">Gender</label>
+                    <select name="gender" id="gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="prefer">Prefer not to say</option>
+                    </select>
+                </fieldset>
+            </form>
+        </section>
+        <fieldset>
+            <legend>Account Details</legend>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter Username..." minlength="5" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password..." minlength="6" required>
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country" value="Kenya" readonly>
+            <label for="about">About You</label>
+            <textarea id="about" name="about" rows="4" placeholder="Tell us something about you..."></textarea>
+            <label for="about">About You</label>
+            <label>
+                <input type="checkbox" name="subscribe" checked>
+                Subscribe to our newsletter
+            </label>
+        </fieldset>
+
+        <button type="submit">Submit Registration</button>
+    </main>
+    <footer>
+        <p> &copy; 2025 PLP Academy &middot; Empowering African Youth through Tech.</p>
+    </footer>
+</body>
+
+</html>
